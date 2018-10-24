@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Bitwise';
+    src: url('bitwise.woff2') format('woff2'),
+        url('bitwise.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/* body{
+
+} */
+p{
+    font-family: "Bitwise";
+}
