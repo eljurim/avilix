@@ -8,6 +8,6 @@ function getRandomArbitrary(min, max) {
   getRandomArbitrary(1,10);
 
 for(let x = 0; x<=vacio.length;x++){
-
+        
 
 }
