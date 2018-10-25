@@ -3,3 +3,7 @@ function numRandom(min, max) {
   }
 
   console.log(numRandom(1,10));
+
+$(".boton-presionable").on("hover", (e)=>{
+  $(e.target).css("opacity",0.2)
+})
