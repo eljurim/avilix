@@ -1,9 +1,15 @@
 *{
   box-sizing: border-box;
 .carcaza {
+  font-family: "Bitwise";
   border: 2px solid black;
   background-color: #FBFFAA;
+  color: yellow;
   .cabecera{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    background-color: black;
 text-align: center;
   }
   .display{
@@ -11,17 +17,23 @@ text-align: center;
     margin: 10px 10px;
     height: 20px;
     background: #032300;
+    text-align: right;
+    color: lightgreen;
+    padding-top: 2px;
   }
   .area-de-juego{
     display: flex;
     flex-wrap: wrap;
     .boton-presionable{
+      color: black;
+      font-weight: 600;
       height: 25vw;
       width: 25vw;
       border: 1px solid black;
       margin: 10px 10px;
       border-radius: 5px 20px 5px 5px;
       text-align: center;
+      padding-top:50px;
       &.boton-1{background-color: blue}
       &.boton-2{background-color: red}
       &.boton-3{background-color: yellow}
@@ -31,7 +43,19 @@ text-align: center;
       &.boton-7{background-color: brown}
       &.boton-8{background-color: navy}
       &.boton-9{background-color: pink}
+      &:hover{opacity: 0.2}
+      }
     }
   }
 }
+
+
+
+
+@font-face {
+    font-family: 'Bitwise';
+    src: url('bitwise.woff2') format('woff2'),
+        url('bitwise.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
