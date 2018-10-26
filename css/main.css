@@ -1,72 +1,113 @@
-* {
+body {
   box-sizing: border-box;
+  background: black;
 }
+<<<<<<< HEAD
 * .carcaza {
+=======
+body .carcaza {
+>>>>>>> 263b832eb19c8157530733edf807fb9c3bbee098
   font-family: "Bitwise";
   border: 2px solid black;
   background-color: #FBFFAA;
   color: yellow;
+<<<<<<< HEAD
 }
 * .carcaza .cabecera {
+=======
+  height: 100vh;
+}
+body .carcaza .titulo {
+  margin-top: 10px;
+  padding: 1px;
+}
+body .carcaza .titulo h1 {
+  margin: 10px 0;
+}
+body .carcaza .titulo h2 {
+  color: red;
+  margin: 10px 0;
+}
+body .carcaza .cabecera {
+>>>>>>> 263b832eb19c8157530733edf807fb9c3bbee098
   margin-left: auto;
   margin-right: auto;
   width: 80%;
   background-color: black;
   text-align: center;
 }
-* .carcaza .display {
-  border: 1px solid black;
-  margin: 10px 10px;
+body .carcaza .display {
+  border: 1px double black;
+  margin: 10px;
   height: 20px;
   background: #032300;
   text-align: right;
   color: lightgreen;
   padding-top: 2px;
 }
-* .carcaza .area-de-juego {
+body .carcaza .area-de-juego {
   display: flex;
   flex-wrap: wrap;
 }
+<<<<<<< HEAD
 * .carcaza .area-de-juego .boton-presionable {
+=======
+body .carcaza .area-de-juego .boton-presionable {
+>>>>>>> 263b832eb19c8157530733edf807fb9c3bbee098
   color: black;
   font-weight: 600;
   height: 25vw;
   width: 25vw;
   border: 1px solid black;
-  margin: 10px 10px;
+  margin: 10px;
   border-radius: 5px 20px 5px 5px;
   text-align: center;
+<<<<<<< HEAD
   padding-top: 50px;
+=======
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /*        padding-top: 50px;
+  */
+  /*        transition: opacity 0.5s;
+  */
+>>>>>>> 263b832eb19c8157530733edf807fb9c3bbee098
 }
-* .carcaza .area-de-juego .boton-presionable.boton-1 {
+body .carcaza .area-de-juego .boton-presionable.boton-1 {
   background-color: blue;
 }
-* .carcaza .area-de-juego .boton-presionable.boton-2 {
+body .carcaza .area-de-juego .boton-presionable.boton-2 {
   background-color: red;
 }
-* .carcaza .area-de-juego .boton-presionable.boton-3 {
+body .carcaza .area-de-juego .boton-presionable.boton-3 {
   background-color: yellow;
 }
-* .carcaza .area-de-juego .boton-presionable.boton-4 {
+body .carcaza .area-de-juego .boton-presionable.boton-4 {
   background-color: purple;
 }
-* .carcaza .area-de-juego .boton-presionable.boton-5 {
+body .carcaza .area-de-juego .boton-presionable.boton-5 {
   background-color: orange;
 }
-* .carcaza .area-de-juego .boton-presionable.boton-6 {
+body .carcaza .area-de-juego .boton-presionable.boton-6 {
   background-color: green;
 }
-* .carcaza .area-de-juego .boton-presionable.boton-7 {
+body .carcaza .area-de-juego .boton-presionable.boton-7 {
   background-color: brown;
 }
-* .carcaza .area-de-juego .boton-presionable.boton-8 {
+body .carcaza .area-de-juego .boton-presionable.boton-8 {
   background-color: navy;
 }
-* .carcaza .area-de-juego .boton-presionable.boton-9 {
+body .carcaza .area-de-juego .boton-presionable.boton-9 {
   background-color: pink;
 }
+<<<<<<< HEAD
 * .carcaza .area-de-juego .boton-presionable:hover {
   opacity: 0.2;
+=======
+body .carcaza .area-de-juego .boton-presionable.active {
+  animation: glowing 300ms 1;
+>>>>>>> 263b832eb19c8157530733edf807fb9c3bbee098
 }
 
 @font-face {
@@ -75,5 +116,19 @@
   font-weight: normal;
   font-style: normal;
 }
+<<<<<<< HEAD
+=======
+@keyframes glowing {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.2;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+>>>>>>> 263b832eb19c8157530733edf807fb9c3bbee098
 
 /*# sourceMappingURL=main.css.map */
