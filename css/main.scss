@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 body {
   box-sizing: border-box;
   background: black;
@@ -117,42 +116,3 @@ body {
   50% { opacity: 0.2; }
   100% { opacity: 1; }
 }
-=======
-*{
-  box-sizing: border-box;
-.carcaza {
-  border: 2px solid black;
-  background-color: #FBFFAA;
-  .cabecera{
-text-align: center;
-  }
-  .display{
-    border: 1px solid black;
-    margin: 10px 10px;
-    height: 20px;
-    background: #032300;
-  }
-  .area-de-juego{
-    display: flex;
-    flex-wrap: wrap;
-    .boton-presionable{
-      height: 25vw;
-      width: 25vw;
-      border: 1px solid black;
-      margin: 10px 10px;
-      border-radius: 5px 20px 5px 5px;
-      text-align: center;
-      &.boton-1{background-color: blue}
-      &.boton-2{background-color: red}
-      &.boton-3{background-color: yellow}
-      &.boton-4{background-color: purple}
-      &.boton-5{background-color: orange}
-      &.boton-6{background-color: green}
-      &.boton-7{background-color: brown}
-      &.boton-8{background-color: navy}
-      &.boton-9{background-color: pink}
-    }
-  }
-}
-}
->>>>>>> 8a8caca33c109d96ad47f9694f07dad81ce9d3d8
