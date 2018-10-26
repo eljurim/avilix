@@ -36,6 +36,10 @@ body .carcaza .display {
   color: lightgreen;
   padding-top: 2px;
 }
+body .carcaza .display .max-score {
+  color: red;
+  float: left;
+}
 body .carcaza .area-de-juego {
   display: flex;
   flex-wrap: wrap;
