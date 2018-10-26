@@ -1,3 +1,112 @@
+<<<<<<< HEAD
+body {
+  box-sizing: border-box;
+  background: black;
+}
+body .carcaza {
+  font-family: "Bitwise";
+  border: 2px solid black;
+  background-color: #FBFFAA;
+  color: yellow;
+  height: 100vh;
+}
+body .carcaza .titulo {
+  margin-top: 10px;
+  padding: 1px;
+}
+body .carcaza .titulo h1 {
+  margin: 10px 0;
+}
+body .carcaza .titulo h2 {
+  color: red;
+  margin: 10px 0;
+}
+body .carcaza .cabecera {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  background-color: black;
+  text-align: center;
+}
+body .carcaza .display {
+  border: 1px double black;
+  margin: 10px;
+  height: 20px;
+  background: #032300;
+  text-align: right;
+  color: lightgreen;
+  padding-top: 2px;
+}
+body .carcaza .area-de-juego {
+  display: flex;
+  flex-wrap: wrap;
+}
+body .carcaza .area-de-juego .boton-presionable {
+  color: black;
+  font-weight: 600;
+  height: 25vw;
+  width: 25vw;
+  border: 1px solid black;
+  margin: 10px;
+  border-radius: 5px 20px 5px 5px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /*        padding-top: 50px;
+  */
+  /*        transition: opacity 0.5s;
+  */
+}
+body .carcaza .area-de-juego .boton-presionable.boton-1 {
+  background-color: blue;
+}
+body .carcaza .area-de-juego .boton-presionable.boton-2 {
+  background-color: red;
+}
+body .carcaza .area-de-juego .boton-presionable.boton-3 {
+  background-color: yellow;
+}
+body .carcaza .area-de-juego .boton-presionable.boton-4 {
+  background-color: purple;
+}
+body .carcaza .area-de-juego .boton-presionable.boton-5 {
+  background-color: orange;
+}
+body .carcaza .area-de-juego .boton-presionable.boton-6 {
+  background-color: green;
+}
+body .carcaza .area-de-juego .boton-presionable.boton-7 {
+  background-color: brown;
+}
+body .carcaza .area-de-juego .boton-presionable.boton-8 {
+  background-color: navy;
+}
+body .carcaza .area-de-juego .boton-presionable.boton-9 {
+  background-color: pink;
+}
+body .carcaza .area-de-juego .boton-presionable.active {
+  animation: glowing 300ms 1;
+}
+
+@font-face {
+  font-family: "Bitwise";
+  src: url("bitwise.woff2") format("woff2"), url("bitwise.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@keyframes glowing {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.2;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+=======
 * {
   box-sizing: border-box;
 }
@@ -65,6 +174,7 @@
 * .carcaza .area-de-juego .boton-presionable.boton-9 {
   background-color: pink;
 }
+<<<<<<< HEAD
 * .carcaza .area-de-juego .boton-presionable:hover {
   opacity: 0.2;
 }
@@ -75,5 +185,8 @@
   font-weight: normal;
   font-style: normal;
 }
+=======
+>>>>>>> 8a8caca33c109d96ad47f9694f07dad81ce9d3d8
+>>>>>>> ba743b9646961e0acb53ea64d170df7563d038bd
 
 /*# sourceMappingURL=main.css.map */
