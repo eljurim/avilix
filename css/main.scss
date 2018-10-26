@@ -1,0 +1,118 @@
+body {
+  box-sizing: border-box;
+  background: black;
+
+  .carcaza {
+    font-family: "Bitwise";
+    border: 2px solid black;
+    background-color: #FBFFAA;
+    color: yellow;
+    height: 100vh;
+
+    .titulo {
+      margin-top: 10px;
+      padding: 1px;
+
+      h1 {
+        margin: 10px 0;
+      }
+
+      h2 {
+        color: red;
+        margin: 10px 0;
+      }
+    }
+
+    .cabecera {
+      margin-left: auto;
+      margin-right: auto;
+      width: 80%;
+      background-color: black;
+      text-align: center;
+    }
+
+    .display {
+      border: 1px double black;
+      margin: 10px;
+      height: 20px;
+      background: #032300;
+      text-align: right;
+      color: lightgreen;
+      padding-top: 2px;
+    }
+
+    .area-de-juego {
+      display: flex;
+      flex-wrap: wrap;
+
+      .boton-presionable {
+        color: black;
+        font-weight: 600;
+        height: 25vw;
+        width: 25vw;
+        border: 1px solid black;
+        margin: 10px;
+        border-radius: 5px 20px 5px 5px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+  /*        padding-top: 50px;
+*//*        transition: opacity 0.5s;
+*/      
+        &.boton-1 {
+          background-color: blue;
+        }
+
+        &.boton-2 {
+          background-color: red;
+        }
+
+        &.boton-3 {
+          background-color: yellow;
+        }
+
+        &.boton-4 {
+          background-color: purple;
+        }
+
+        &.boton-5 {
+          background-color: orange;
+        }
+
+        &.boton-6 {
+          background-color: green;
+        }
+
+        &.boton-7 {
+          background-color: brown;
+        }
+
+        &.boton-8 {
+          background-color: navy;
+        }
+
+        &.boton-9 {
+          background-color: pink;
+        }
+
+        &.active {
+          animation: glowing 300ms 1;
+        }
+
+      }
+    }
+  }
+}
+@font-face {
+  font-family: 'Bitwise';
+  src: url("bitwise.woff2") format('woff2'), url("bitwise.woff") format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@keyframes glowing {
+  0% { opacity: 1; }
+  50% { opacity: 0.2; }
+  100% { opacity: 1; }
+}
